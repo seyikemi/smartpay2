@@ -1,0 +1,121 @@
+.yaybar .nano>.nano-content {
+    background-color: #044583;
+}
+
+.yaybar .nano-content>ul li>a {
+    color: white;
+    border-left: 4px solid transparent;
+}
+
+.yaybar .nano-content>ul li.active>a {
+    color: white !important;
+    background-color: #043e76 !important;
+    border-left: 4px solid #ffc72f;
+    /* transition: 1s all; */
+}
+
+.yaybar .nano-content>ul li {
+    transition: 1s all;
+}
+
+.yaybar .nano-content>ul li:hover>.sp-cancel,
+.yaybar .nano-content>ul li:hover>a {
+    background-color: #043e76 !important;
+    border-left: 4px solid #ffc72f;
+    color: white;
+}
+
+.yaybar .nano-content>ul li.active>a i {
+    color: #ffc72f !important;
+}
+
+.border-0 {
+    border: 0px !important;
+}
+
+.wid-hh {
+    margin-top: 24px !important;
+}
+
+.card-p {
+    padding: 1rem !important;
+}
+
+.brand-ll {
+    background-color: #044583 !important;
+    color: white !important;
+    padding: 14px 47px !important;
+    margin-left: -6px;
+}
+
+.yay-toggle {
+    background-color: #044583;
+    margin-right: 0px;
+}
+
+.yay-toggle:hover {
+    background-color: #044583 !important;
+}
+
+.yay-toggle div:before,
+.yay-toggle div:after {
+    background-color: white;
+}
+
+.active-p {
+    color: #8088ff;
+    background-color: #e8e7ff;
+}
+
+.active-s {
+    background-color: #d5f6e5;
+    color: #4ad991;
+}
+
+.active-d {
+    color: #ff7285;
+    background-color: #ffe2e6;
+}
+
+.activity-icon {
+    height: 36px;
+    width: 36px;
+    padding: 12px;
+    border-radius: 74px;
+}
+
+.recent-p {
+    margin-top: 7px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100px;
+}
+
+.m0 {
+    margin: 0px;
+}
+
+.profile-action {
+    margin-top: 40px;
+}
+
+.profile-min {
+    min-height: 320px;
+}
+
+.btn-blue,
+.btn-blue:hover {
+    background-color: #044582;
+}
+
+.btn-outline,
+.btn-outline:hover {
+    border: 1px solid #044582;
+    background: white;
+    color: #044582;
+}
