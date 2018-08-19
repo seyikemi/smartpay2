@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Smart Pay</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- PushBar -->
+    <link rel="stylesheet" href="pushbar/pushbar.css">
+</head>
+
+<body>
+    <!-- Start your project here-->
+    <!--Main Navigation-->
+    <header class="header-s">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark smart-nav">
+            <div class="w-100">
+                <img data-pushbar-target="mypushbar1" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" src="img/svg/menu.svg" class="img-fluid menu-icon-ii" alt="menu-icon">
+
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-pushbar-target="mypushbar1" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <a class="navbar-brand mt-2" href="#">
+                    <strong>Smart Pay</strong>
+                </a>
+                <a href="dashboard.html" class="float-right mt-3">
+                    <img src="img/svg/left-arrow.svg" class="img-fluid menu-icon-ii" alt="menu-icon">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!--Main Navigation-->
+
+    <!--Option Layout-->
+    <main class="pb-3">
+        <div class=" text-center">
+            <div class=" ">     
+                 <ul class="nav nav-tabs nav-justified col-md-6 col-12 col-sm-12 mx-auto "  role="tablist" style = "border:0">
+                    <li class="nav-item">
+                        <a class="nav-link navlink-custom active " data-toggle="tab" href="#today" role="tab"> My Wallet QR Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navlink-custom  " data-toggle="tab" href="#week" role="tab"> My other QR Code</a>
+                    </li>
+                  
+                </ul>
+                <!-- Tab panels -->
+                <div class="tab-content " >
+                    <!--Today  Tab-->
+                    <div class="tab-pane fade in show active" id="today" role="tabpanel">
+                        <br>
+                        <div class="col-md-4 col-9 mx-auto">
+                                <h4 class="font-weight-bold mt-2">My Wallet QR Code</h4>
+                                <p>Scan or Share QR Code to make Payment</p>
+                                <img src="img/qr/qr-code.png" class="img-fluid thumbnail extra mb-3" alt="qr-code">
+                              
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class = "semi-circle pb-3 mx-auto col-md-6 col-12 col-sm-12 col-lg-6">
+                        <div class="text-center mx-auto ">
+                                <a href="#" class="black-text">
+                                        <p>https://xd.adobe.com/view/d
+                                            c4838aa-db4c-4db2-7bb6-899180123fce-aa79Wallet-QR</p>
+                                </a>
+                        </div>
+                           
+                    </div>
+                    
+                   
+                    <div class="mt-4 pt-3 text-center mx-auto col-md-4 col-10 col-sm-10  col-lg-4">
+                        <a href="amount.html" class="btn btn-yellow bold ml-0 waves-effect waves-light">SHARE VIA</a>
+                    </div>
+                   
+                    </div>
+                    <!--/.Today Tab-->
+                    <!--Panel 2-->
+                    <div class="tab-pane fade" id="week" role="tabpanel">
+                        <!-- <br>
+                       <p>no content yet</p> -->
+                    </div>
+                    <!--/.Panel 2-->
+               
+           
+                </div>
+                
+        <div data-pushbar-id="mypushbar1" class="pushbar from_left">
+            <a style="animation-delay: 0.3s " href="javascript:void(0)" class="closebtn animated jackInTheBox primary-col" data-pushbar-close>×</a>
+            <ul class="navbar-nav  pt-4" id="navactive">
+                <div class="pt-3 pb-5">
+                    <div class="text-center mx-auto ">
+                        <div class="ellipse text-center mx-auto rounded-circle animated jackInTheBox">
+                            <img src="img/avatar/avatar.png" alt="profile image " class=" image2 rounded-circle">
+                        </div>
+                        <h5 class="pb-0 mb-0 font-weight-bold mt-3">Sidius Komeh</h5>
+                        <p class="pt-0 mt-0">Sidiuskomeh@gmail.com</p>
+                    </div>
+                </div>
+                <li class="nav-item  active">
+                    <a class="nav-link waves-effect waves-light" href="#">Dashboard
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link waves-effect waves-light" href="#">Fund Wallet</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link waves-effect waves-light" href="#">Transaction</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link waves-effect waves-light" href="#">Support</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link waves-effect waves-light" href="#">About SmartPay</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link waves-effect waves-light" href="#">Legal</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link waves-effect waves-light" href="#">Logout</a>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <!-- <div data-pushbar-id="mypushbar2" class="pushbar from_bottom">
+            Push bar content 2
+            <button data-pushbar-close>Close</button>
+        </div> -->
+    </main>
+    <!--Main Layout-->
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- PushBar -->
+    <script src="pushbar/pushbar.js"></script>
+
+    <!-- Chart JS -->
+    <!-- <script src="js/chart-init.js"></script> -->
+
+    <!-- onScroll Js -->
+    <script src="js/onScroll.js"></script>
+
+
+    <!-- <script src="vendor/Chart.js/Chart.min.js"></script> -->
+    <!-- Push bar Custom Script -->
+    <script type="text/javascript">
+        new Pushbar({  
+            blur: true,
+              overlay: true,
+             
+        });
+    </script>
+</body>
+
+</html>
